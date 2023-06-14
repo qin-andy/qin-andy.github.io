@@ -1,5 +1,5 @@
 
-const Home = () => {
+const HomePrototype = () => {
   return (
     <div className='container max-w-xl mx-auto text-md text-center items-center flex flex-col p-3'>
       <h1 className='text-3xl mt-5'>Andy Qin</h1>
@@ -76,4 +76,4 @@ const Footer = () => {
   )
 }
 
-export default Home;
+export default HomePrototype;
