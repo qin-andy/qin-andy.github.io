@@ -45,7 +45,7 @@ const ProjectGallery = () => {
         </ProjectCard>
 
         <ProjectCard
-          src='/projects/carver_hokusai_demo3.PNG'
+          src='/projects/carver_hokusai_2.PNG'
           title='Discord Seam Carver'
           link='https://github.com/qin-andy/discord-seam-carver'
         >
