@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 const ProjectGallery = () => {
   return (
     <>
-      <div className='grid mt-5 gap-3 sm:grid-cols-2 md:grid-cols-3'>
+      <div className='grid mt-5 gap-3 grid-cols-2 md:grid-cols-3'>
         <ProjectCard
           src='/projects/shark_chess_cropped.PNG'
           title='Chess Tourney Simulator'

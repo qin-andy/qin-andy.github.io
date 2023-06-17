@@ -6,8 +6,8 @@ const ProjectCard = (props: {
   link?: string,
 }) => {
   return (
-    <div className='overflow-hidden w-80 h-60 shadow-xl shadow-slate group rounded-3xl'>
-      <div className='p-3 w-80 h-60 absolute opacity-0 group-hover:opacity-90
+    <div className='overflow-hidden relative h-60 shadow-xl shadow-slate group rounded-3xl'>
+      <div className='p-3 absolute h-full opacity-0 group-hover:opacity-90
             transition ease-in-out duration-300
           bg-white flex flex-col justify-between items-center
             rounded-3xl'>
@@ -25,7 +25,7 @@ const ProjectCard = (props: {
           <p>Source</p>
         </a>
       </div>
-      <img className='object-cover' src={props.src} alt={props.alt} />
+      <img className='object-cover h-full w-full' src={props.src} alt={props.alt} />
     </div>
   )
 }
